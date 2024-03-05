@@ -1,0 +1,12 @@
+{
+    "users": [
+        {
+            "username": "EDIX-P-028",
+            "password": "proclimb"
+        },
+        {
+            "username": "user",
+            "password": "password"
+        }
+    ]
+}

@@ -1,0 +1,1036 @@
+{
+    "chapter1": {
+        "Key": "CADCBCBDD",
+        "title": "「PHPの特徴」 全９問",
+        "quizCount": 9,
+        "question1": "PHPの動作として正しいものを選択してください。",
+        "option1": {
+            "A": "webクライアントで実行されるプログラミング言語である",
+            "B": "webブラウザに新しいウィンドウをポップアップする機能を持つ",
+            "C": "プログラムをコンパイルせずに実行する",
+            "D": "常に同じ静的なページを生成する"
+        },
+        "question2": "PHPの特徴として誤っているものを選択してください。",
+        "option2": {
+            "A": "PHPはライセンス料を支払えばだれでも使用することが出来る",
+            "B": "PHPはほとんどのLinuxディストリビューションに同梱されている",
+            "C": "PHPはオープンソースである",
+            "D": "PHPは広範なデータベースをサポートする"
+        },
+        "question3": "PHPの実行環境として正しいものを選択してください。",
+        "option3": {
+            "A": "Windows環境でのみ使用することが出来る",
+            "B": "Windows、macOS環境でのみ使用することが出来る",
+            "C": "Linux、Solaris、その他のバージョンのUNIX環境でのみ使用することが出来る",
+            "D": "Windows、macOS、Linux、Solaris、あらゆるバージョンのUNIX環境すべてで使用することができる"
+        },
+        "question4": "PHPが動作するWebサーバーの説明として正しいものを選択してください。",
+        "option4": {
+            "A": "PHPはApacheでのみ動作する",
+            "B": "PHPはMicrosoft Internet Information Services（IIS）でのみ動作する",
+            "C": "CGI規格をサポートするWebサーバであれば動作する",
+            "D": "どのようなWebサーバでも動作する"
+        },
+        "question5": "PHPの開始と終了を表すタグの組み合わせとして正しいものを選択してください。",
+        "option5": {
+            "A": "＜php 処理 ＞ ",
+            "B": "＜?php 処理 ?＞",
+            "C": "＜php 処理 /php＞",
+            "D": "＜?php 処理 /?＞"
+        },
+        "question6": "PHPの記述方法として正しいものを選択してください。",
+        "option6": {
+            "A": "プログラムを見やすくするため、プログラムとプログラムの間には必ず1行ずつ空行を入れる",
+            "B": "プログラムの文末には終了を表すコロン「：」を記述する",
+            "C": "プログラムと同じ行の後ろに行コメントを記述することができる",
+            "D": "コメントを記述するとプログラムが長くなるため、あまり記述すべきではない"
+        },
+        "question7": "PHPのコメントの説明として誤っているものを選択してください。",
+        "option7": {
+            "A": "複数行コメントは「/*」と「*/」で囲む",
+            "B": "複数行コメントは「＜!--」と「--＞」で囲む",
+            "C": "行コメントは「＃」以降にコメントを記述する",
+            "D": "行コメントは「！」以降にコメントを記述する"
+        },
+        "question8": "print number_(12345);と同様の処理をするプログラムとして誤っているものを選択してください。",
+        "option8": {
+            "A": "PRINI NUMBER_FORMAT (12345);",
+            "B": "Number_Format (12345);",
+            "C": "$data = number_format (12345); echo $data;",
+            "D": "$data = number_format (12345); echo $DATA;"
+        },
+        "question9": "PHPで利用できるホワイトスペースの組み合わせとして最も適切なものを選択してください。",
+        "option9": {
+            "A": "スペース",
+            "B": "スペースとタブ",
+            "C": "タブと改行",
+            "D": "スペースとタブと改行"
+        }
+    },
+    "chapter2": {
+        "count": 1,
+        "title": "「テキストと数の操作」 全１１問",
+        "quizCount": 11,
+        "question1": "変数名の前に付ける記号として正しいものを選択してください。",
+        "option1": {
+            "A": "％",
+            "B": "＃",
+            "C": "＄",
+            "D": "特に必要ない"
+        },
+        "question2": "単一引用符と二重引用符の違いの説明として正しいものを選択してください。",
+        "option2": {
+            "A": "二重引用符で囲まれた変数名は変数が値に置き換わるが、Windowsでは単一引用符で囲まれた変数は値に置き換わることなくそのまま変数名（文字列）として扱われる",
+            "B": "二重引用符で囲まれた変数名は変数が値に置き換わるが、UNIXでは単一引用符で囲まれた変数は値に置き換わることなくそのまま変数名（文字列）として扱われる",
+            "C": "二重引用符で囲まれた変数名は変数が値に置き換わるが、単一引用符で囲まれた変数は値に置き換わることなくそのまま変数名（文字列）として扱われる",
+            "D": "違いはない"
+        },
+        "question3": "次のコードを実行した結果として正しいものを選択してください。",
+        "option3": {
+            "A": "Price：$4.210",
+            "B": "Price：$4.21",
+            "C": "Price：$4.2",
+            "D": "Price：$4"
+        },
+        "question4": "変数に格納している文字列の長さを調べる関数として正しいものを選択してください。",
+        "option4": {
+            "A": "strlen()",
+            "B": "substr()",
+            "C": "str_replace()",
+            "D": "trim()"
+        },
+        "question5": "実行するとSato ichiroと表示されるコードとして正しいものを選択してください。",
+        "option5": {
+            "A": "print ucwords(strtoupper('sato ichiro'));",
+            "B": "print ucwords(strtolower('sato ichiro'));",
+            "C": "print strtoupper(ucwords('sato ichiro'));",
+            "D": "print strtolower(ucwords('sato ichiro'));"
+        },
+        "question6": "次のコードを実行した結果として正しいものを選択してください。",
+        "option6": {
+            "A": "abcdefghijk",
+            "B": "abcde",
+            "C": "ABCDE",
+            "D": "bcdef"
+        },
+        "question7": "次のコードを実行した結果として正しいものを選択してください。",
+        "option7": {
+            "A": "8.12",
+            "B": "20",
+            "C": "1*8.3*4",
+            "D": "812"
+        },
+        "question8": "変数名の指定として誤っているものを選択してください。",
+        "option8": {
+            "A": "BANANA",
+            "B": "5banana",
+            "C": "Fruits_Bnana",
+            "D": "_banana",
+            "E": "apple_banana",
+            "F": "apple7"
+        },
+        "question9": "実行すると「0」と表示されるコードとして正しいものを選択してください。",
+        "option9": {
+            "A": "print 'Hello' == 'Hello';",
+            "B": "print 'Hello' == 'HELLO';",
+            "C": "print strcasecmp('Hello','Hello');",
+            "D": "print 'strcasecmp'('Hello','HELLO');"
+        },
+        "question10": "ヒアドキュメントに利用される記号として正しいものを選択してください。",
+        "option10": {
+            "A": "＞＞＞",
+            "B": "＜＜＜",
+            "C": "” ”",
+            "D": "＜＞"
+        },
+        "question11": "次のコードを実行した結果として正しいものを選択してください。",
+        "option11": {
+            "A": "number:.$number",
+            "B": "number:1",
+            "C": "number:15",
+            "D": "number:16"
+        }
+    },
+    "chapter3": {
+        "count": 1,
+        "title": "「ロジック：判定と繰り返し」 全１０問",
+        "quizCount": 10,
+        "question1": "次のうちtrueとなるものを選択してください。",
+        "option1": {
+            "A": "abc",
+            "B": "0",
+            "C": "0.0",
+            "D": "40-40",
+            "E": "phptest';'@example.com",
+            "F": "4-7+3"
+        },
+        "question2": "次のコードを実行した結果として正しいものを選択してくだい。",
+        "option2": {
+            "A": "「Hello」が表示される",
+            "B": "「Bye」が表示される",
+            "C": "何も表示されない",
+            "D": "パースエラーになる"
+        },
+        "question3": "次のコードを実行した結果として正しいものを選択してください。",
+        "option3": {
+            "A": "「１」が表示される",
+            "B": "「２」が表示される",
+            "C": "何も表示されない",
+            "D": "パースエラーになる"
+        },
+        "question4": "次のコードを実行した結果として正しいものを選択してください。",
+        "option4": {
+            "A": "AAABBBCCC",
+            "B": "AAABBB",
+            "C": "AAACCC",
+            "D": "AAA",
+            "E": "BBB",
+            "F": "CCC"
+        },
+        "question5": "次のコードを実行した結果として正しいものを選択してください。",
+        "option5": {
+            "A": "「44」が表示される",
+            "B": "「5member」",
+            "C": "何も表示されない",
+            "D": "パースエラーになる"
+        },
+        "question6": "次のコードを実行した結果として正しいものを選択してください。",
+        "option6": {
+            "A": "「Over」が表示される",
+            "B": "「Under」が表示される",
+            "C": "何も表示されない",
+            "D": "パースエラーになる"
+        },
+        "question7": "次のコードを実行した結果として正しいものを選択してください。",
+        "option7": {
+            "A": "「Over」が表示される",
+            "B": "「Under」が表示される",
+            "C": "何も表示されない",
+            "D": "パースエラーになる"
+        },
+        "question8": "次のコードを実行した結果「Success」が表示されるとき、空欄①、②に入る記述の組み合わせとして正しいものを選択してください。",
+        "option8": {
+            "A": "①$data = 60; ②($data > 70) && ($data <= 70)",
+            "B": "①$data = 70; ②($data >= 70) || ($data > 100)",
+            "C": ">①$data = 80; ②($data >= 70) && ($data <= 100)",
+            "D": "①$data = 90; ②($data =< 70) || ($data=100)"
+        },
+        "question9": "次のコードを実行した結果として正しいものを選択してください。",
+        "option9": {
+            "A": "9",
+            "B": "10",
+            "C": "44",
+            "D": "45",
+            "E": "55"
+        },
+        "question10": "次のコードを実行した結果として正しいものを選択してください。",
+        "option10": {
+            "A": "0300403040",
+            "B": "30034030430",
+            "C": "00304003040",
+            "D": "00045030430"
+        }
+    },
+    "chapter4": {
+        "count": 1,
+        "title": "「データのグループ：配列の操作」 全１０問",
+        "quizCount": 10,
+        "question1": "配列の定義として正しいものを選択してください。",
+        "option1": {
+            "A": "配列の作成時に各要素のキーを指定しなかった場合、キーは１から始まる",
+            "B": "配列$numbersと変数$numbersは同時に使用できる",
+            "C": "配列の各要素のキーには文字列を利用することはできない",
+            "D": "配列の各要素の値には文字列を利用することができる"
+        },
+        "question2": "次のコードを実行した結果として正しいものを選択してください。",
+        "option2": {
+            "A": "10",
+            "B": "20",
+            "C": "30",
+            "D": "40",
+            "E": "50",
+            "F": "パースエラーとなる"
+        },
+        "question3": "次のコードは2つの配列を作成しています。コードが正しく実行されるとき、空欄①、②に入る演算子の組み合わせとして適切なものを選択してください。",
+        "option3": {
+            "A": "①= ②=",
+            "B": "①== ②=",
+            "C": "①= ②==",
+            "D": "①= ②=>",
+            "E": "①=> ②=>",
+            "F": "①== ②=="
+        },
+        "question4": "PHPの配列の説明として誤っているものを選択してください。",
+        "option4": {
+            "A": "数字以外のキーを指定する連想配列では、配列に要素を追加してた場合の順序は保持されないため、foreach文で配列から要素を取り出す順番は不要である",
+            "B": "添字を省略して要素を追加することができる",
+            "C": "配列をコピーした場合、要素数が多い配列をコピーしてもメモリの消費量はあまり増えない",
+            "D": "配列に要素を追加する場合は、最後の要素の後ろに加えるだけでなく、要素の途中に挿入することもできる"
+        },
+        "question5": "次のコードを実行した結果として正しいものを選択してください。",
+        "option5": {
+            "A": "red yellow blue orange",
+            "B": "red yellow orange blue",
+            "C": "0132",
+            "D": "0123"
+        },
+        "question6": "次のコードを実行した結果として正しいものを選択してください。",
+        "option6": {
+            "A": "0:black 1:blue 2:green 3:red",
+            "B": "leaf:black night:blue sea:green sun:red",
+            "C": "leaf:green night:black sea:blue sun:red",
+            "D": "night:black sea:blue leaf:green sun:red"
+        },
+        "question7": "次のコードのforeach文をfor文で書き直した場合、同じ結果になるものを選択してください。",
+        "option7": {
+            "A": "$n=count($fruits);for($i=0;$i<=$n;$++){print'{$i}{$fruits[$i]}';}",
+            "B": "$n = count($fruits); for($i=1;$i<=$n;$i++){print'{$i}{$fruits[$i]}'}",
+            "C": "$n = count($fruits); for($i=0;$i<$n;$i++){print'{$i}{$fruits[$i]}'}",
+            "D": "$n = count($fruits); for($i=1;$i<$n;$i++){print'{$i}{$fruits[$i]}''}"
+        },
+        "question8": "配列から文字列を作成する関数を選択してください。",
+        "option8": {
+            "A": "unset()",
+            "B": "implode()",
+            "C": "explode()",
+            "D": "in_array()"
+        },
+        "question9": "var_dump()関数を実行すると次のように表示される2次元配列があります。文字列Tokyoを表示するための記述として正しいものを選択してください。",
+        "option9": {
+            "A": "print $profiles['country'];",
+            "B": "print $profiles[2][3];",
+            "C": "print $profiles[1][2];",
+            "D": "print $profiles[1]['country'];",
+            "E": "print $profiles[0]['country'];",
+            "F": "print $profiles[3]['Tokyo'];"
+        },
+        "question10": "次のコードを実行した結果として正しいものを選択してください。",
+        "option10": {
+            "A": "$arrays = array(array('color'=>'red','stock'=>1000),array('color'=>'yellow','stock'=>2000));",
+            "B": "$arrays = array('color'=>'red','stock'=>1000),('color'=>'yellow','stock'=>2000);",
+            "C": "$arrays[][] = 'apple'=>array('color'=>'red','stock'=>1000),'banana'=>array('color'=>'yellow,'stock'=>2000);",
+            "D": "$arrays['apple']['color']='red';$arrays['apple']['stock']=1000;$arrays['banana']['color']='yellow';$arrays['banana']['stock']=2000;",
+            "E": "&arrays=array($arrays['apple']['color']='red';'apple'=>array('color'=>'red','stock'=>1000),'banana'=>array('color'=>'yellow','stock'=>2000));"
+        }
+    },
+    "chapter5": {
+        "count": 1,
+        "title": "「ロジックのグループ：関数とファイル」 全10問",
+        "quizCount": 10,
+        "question1": "関数の定義として正しいものを選択してください。",
+        "option1": {
+            "A": "func calc{}",
+            "B": "function calc{}",
+            "C": "func calc($data1){}",
+            "D": "function calc(){}"
+        },
+        "question2": "関数の定義として正しいものを選択してください。",
+        "option2": {
+            "A": "add(10,20);",
+            "B": "ADD(10.20);",
+            "C": "func add(20,10);",
+            "D": "func ADD(20,10);",
+            "E": "call add(10,20);",
+            "F": "call ADD(10,20);"
+        },
+        "question3": "関数の説明として正しいものを選択してください。",
+        "option3": {
+            "A": "関数の呼び出しは、関数の定義の前にしなければならない",
+            "B": "関数名の１文字目にはアンダースコア「＿」を利用することができない",
+            "C": "関数の引数には、呼び出し時に値がない場合に備え、デフォルトの値が指定できる",
+            "D": "関数を利用するためには、常にinclude文を用いて宣言をしなければならない"
+        },
+        "question4": "次の関数を呼び出したとき、「Hello,taro」と表示されるものを選択してください。",
+        "option4": {
+            "A": "function message($message,$name='hanako'){<br>print '$message,$name';}",
+            "B": "function message(message,name){<br>print '$message,$name';}",
+            "C": "function message($message='Hello',$name='taro'){<br>print '&message,&name';}",
+            "D": "function message($message=,$name=$taro){<br>print '$message,$name';}",
+            "E": "function message('Hello','taro'){<br>print '$message,$name';}"
+        },
+        "question5": "関数の説明として誤っているものを選択してください。",
+        "option5": {
+            "A": "関数内でreturn文を複数記述することができる",
+            "B": "関数が何も値を返さない場合、return文の記述は省略することができる",
+            "C": "return文をカンマで区切ることで複数の値を返すことができる",
+            "D": "return文は配列を返すことができる"
+        },
+        "question6": "次のコードを実行した結果として正しいものを選択してください。",
+        "option6": {
+            "A": "Success!!",
+            "B": "Challenge!!",
+            "C": "Failure!!",
+            "D": "実行時にエラーが発生する"
+        },
+        "question7": "次のコードを実行した結果として正しいものを選択してください。",
+        "option7": {
+            "A": "9",
+            "B": "10",
+            "C": "19",
+            "D": "20"
+        },
+        "question8": "関数内からグローバル変数にアクセスするために用いる配列として正しいものを選択してください。",
+        "option8": {
+            "A": "$GLOBALS",
+            "B": "$_GLOBALS",
+            "C": "$_SERVER",
+            "D": "$SERVER",
+            "E": "$_GLOBAL",
+            "F": "$GLOBAL"
+        },
+        "question9": "実行すると「0」と表示されるコードとして正しいものを選択してください。",
+        "option9": {
+            "A": "local_&a=>10, local_$b=>20, global_&a=>10, global_&b=>20",
+            "B": "local_&a=>10, local_$b=>200, global_&a=>10, global_&b=>200",
+            "C": "local_&a=>100, local_$b=>200, global_&a=>100, global_&b=>200",
+            "D": "local_&a=>100, local_$b=>200, global_&a=>10, global_&b=>200"
+        },
+        "question10": "次のコードを実行した結果として正しいものを選択してください。",
+        "option10": {
+            "A": "0",
+            "B": "10",
+            "C": "207",
+            "D": "305",
+            "E": "502",
+            "F": "600"
+        }
+    },
+    "chapter6": {
+        "count": 1,
+        "title": "「データとロジックの結合：オブジェクトの操作」 全８問",
+        "quizCount": 8,
+        "question1": "PHPのオブジェクトの説明として誤っているものを選択してください。",
+        "option1": {
+            "A": "クラスとは、オブジェクトの変数と関数を記述するテンプレートや設計図であり、classで定義する",
+            "B": "インスタンスとは、クラスから作成された実態であり、クラスからインスタンスを作成することをインスタンス化と呼ぶ",
+            "C": "メソッドとは、クラスの中で定義された関数のことであり、methodで定義する",
+            "D": "プロパティとはクラスの中で定義された変数のことであり、「->」演算子によって利用する"
+        },
+        "question2": "Carインスタンスを作成するための記述として正しいものを選択してください。",
+        "option2": {
+            "A": "$obj = Car();",
+            "B": "$obj = new Car();",
+            "C": "$obj => Car();",
+            "D": "$obj -> Car();"
+        },
+        "question3": "Carクラスの性的メソッドであるrun()メソッドを呼び出すための記述として正しいものを選択してください。",
+        "option3": {
+            "A": "Car -> run();",
+            "B": "Car . run();",
+            "C": "Car :: run();",
+            "D": "Car => run();",
+            "E": "Car _ run();"
+        },
+        "question4": "コンストラクタの説明として誤っているものを選択してください。",
+        "option4": {
+            "A": "コンストラクタの名前は__constructである",
+            "B": "コンストラクタとは、オブジェクトがインスタンス化されるときに自動で呼び出される特別なメソッドである",
+            "C": "コンストラクタとは、クラスをインスタンス化しないで呼び出すことができる特別なメソッドである",
+            "D": "コンストラクタは、インスタンスのプロパティの初期値を設定する際によく利用される"
+        },
+        "question5": "次のコードを実行した結果として正しいものを選択してください。",
+        "option5": {
+            "A": "3,ゼロによる除算",
+            "B": "3,ゼロによる除算,2",
+            "C": "3,2",
+            "D": "3,",
+            "E": "実行時にエラーが発生しプログラムが停止する"
+        },
+        "question6": "サブクラスの説明として正しいものを選択してください。",
+        "option6": {
+            "A": "サブクラスを定義するにはextendキーワードを用いる",
+            "B": "サブクラスを定義するinheritsキーワードを用いる",
+            "C": "サブクラスでは親クラスで定義したprivateのメソッドを利用できる",
+            "D": "サブクラスでは親クラスで定義したpublicのメソッドを利用できる",
+            "E": "サブクラスでは子クラスで定義したprotectedのメソッドを利用できる"
+        },
+        "question7": "次のコードを実行した結果として正しいものを選択してください。",
+        "option7": {
+            "A": "Data: Red Param:",
+            "B": "Data: Red Param: Blue",
+            "C": "Data: Param: Blue",
+            "D": "Data: Param:",
+            "E": "実行時にエラーが発生する"
+        },
+        "question8": "名前空間の説明として正しいものを選択してください。",
+        "option8": {
+            "A": "名前空間を用いると同じ名前のクラスの利用を禁止することができる",
+            "B": "特定の名前空間でクラスを定義する場合、ファイルの先頭でnamespaceキーワードと名前空間名を指定する",
+            "C": "名前空間chap6/test/Sampleクラスの静的メソッドfoo()を呼び出すには、chap6/test/Sample::foo()と記述する",
+            "D": "名前空間のエイリアスを作成するにはaliasキーワードを使用する"
+        }
+    },
+    "chapter7": {
+        "count": 1,
+        "title": "「ユーザとの情報交換：Webフォームの作成」 全８問",
+        "quizCount": 8,
+        "question1": "フォームの利用の説明として誤っているものを選択してください。",
+        "option1": {
+            "A": "Webサーバーとクライアント間で通信は発生せず、Webサーバー内で処理される",
+            "B": "サブミットされたデータの検証を行うことによって、利用するデータの精度を高めることができる",
+            "C": "クロスサイトスクリプティング攻撃を防ぐために、time()関数やhtmlentities()関数は無効である",
+            "D": "フォームを利用するには、<form>タグを使う",
+            "E": "フォームデータを利用するには、$_GET配列や$_POST配列を使う"
+        },
+        "question2": "<form>タグのaction属性で、フォーム要求の際に使用されたURLと同じものを指定するための記述として正しいものを選択してください。",
+        "option2": {
+            "A": "$_GET['PHP_URL']",
+            "B": "$_POST['PHP_SELF']",
+            "C": "$_SESSION['PHP_URL']",
+            "D": "$_SERVER['PHP_SELF']"
+        },
+        "question3": "Webサーバーとクライアント間のリクエストに関する情報を確認します。クライアントのIPアドレスを確認するためのサーバー変数の要素として正しいものを選択してください。",
+        "option3": {
+            "A": "REMOTE_PORT",
+            "B": "REMOTE_ADDR",
+            "C": "REMOTE_HOST",
+            "D": "REMOTE_USER"
+        },
+        "question4": "以下のフォームパラメータからテキストボックスに入力された値を取り出すための記述として正しいものを選択してください。",
+        "option4": {
+            "A": "$_POST['name']",
+            "B": "$_SERVER['text']",
+            "C": "$_GET['name']",
+            "D": "$_SESSION['text']"
+        },
+        "question5": "フォームを利用したWebページでは、フォームパラメータの値が入力されなかった際にPHPから警告メッセージが表示されます。警告メッセージが表示されないようにする場合、空欄①に当てはまる記述として正しいものを選択してください。",
+        "option5": {
+            "A": "||",
+            "B": ";",
+            "C": "@",
+            "D": "??"
+        },
+        "question6": "複数の値をフォームパラメータとして渡す場合、空欄①に当てはまる記述として正しいものを選択してください。",
+        "option6": {
+            "A": "color",
+            "B": "color[]",
+            "C": "color$",
+            "D": "$_POST['color']"
+        },
+        "question7": "フォームパラメータのidで渡された値の判定をします。以下のコードにおける値の判定の説明として正しいものを選択してください。",
+        "option7": {
+            "A": "整数であることを判定できる",
+            "B": "浮動小数点であることを判定できる",
+            "C": "0(ゼロ)が入力された場合はエラーが表示される",
+            "D": "値が入力されていない場合は0が表示される",
+            "E": "値が0から1000の範囲であることが判定できる",
+            "F": "パースエラーになる"
+        },
+        "question8": "サブミットされたデータに値が入力されているか判定します。空欄①に当てはまる記述として正しいものを選択してください。",
+        "option8": {
+            "A": "strlen(trim($_POST['name']))",
+            "B": "trim(strlen($_POST['name']))",
+            "C": "count(trim($_POST['name']))",
+            "D": "trim(count($_POST['name']))"
+        }
+    },
+    "chapter8": {
+        "count": 1,
+        "title": "「情報の保存：データベース」 全１１問",
+        "quizCount": 11,
+        "question1": "リレーショナルデータベース（RDB）の説明として正しいものを選択してください。",
+        "option1": {
+            "A": "SQLキーワードでは大文字と小文字を明確に区別する",
+            "B": "データベース製品が異なってもSQLの記述方法は同じである",
+            "C": "データベースにアクセス後、SQLでは、INSERT文、UPDATE文、DELETE文、SELECT文を利用できる",
+            "D": "値のないセルがあっても表を作成することができない",
+            "E": "スプレッドシートのようにデータベーステーブルの行の順番は決められている"
+        },
+        "question2": "PDOの説明として誤っているものを選択してください。",
+        "option2": {
+            "A": "PHPの拡張モジュールとして実装されている",
+            "B": "DBMSに対して共通のインターフェースを提供するため、移植性が高い",
+            "C": "PDOを利用した場合でも、データベース特有の機能の中にはデータベース独自の関数でしかアクセスできないものがある",
+            "D": "プレースホルダを用いたプリペアードステートメントをサポートしていない"
+        },
+        "question3": "PDOによるデータベース接続を行う場合の記述として正しいものを選択してください。ただし、$DSN変数には適切なDSN接続文字列が代入されているものとします",
+        "option3": {
+            "A": "$db = pdo_connect($DSN);",
+            "B": "$db = new PDO($DSN, 'user-d', 'user-pass');",
+            "C": "$db = PDO::connect($DSN, 'user-d', 'user-pass');",
+            "D": "$db = connect($DSN)"
+        },
+        "question4": "PDOのエラーモードの設定として誤っているものを選択してください。",
+        "option4": {
+            "A": "PDOには例外、サイレント、警告の3つのエラーモードがある",
+            "B": "デフォルトは警告モードである",
+            "C": "次のメソッド呼び出しを行うと例外モードを設定できるsetAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION)",
+            "D": "次のメソッド呼び出しを行うと警告モードを設定できるsetAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING)"
+        },
+        "question5": "次のemployeesテーブルに新たな行を追加するSQL文として正しいものを選択してください。",
+        "option5": {
+            "A": "INSERT INTO employees VALUES(5,'Ito')",
+            "B": "INSERT INTO employees SET(5,'Ito')",
+            "C": "ADD employees VALUES(5,'Ito')",
+            "D": "ADD employees SET(5,'Ito')"
+        },
+        "question6": "foodsテーブルに対して以下のコードを実行したときの出力結果として正しいものを選択してください。",
+        "option6": {
+            "A": "Changed the price of 1 rows",
+            "B": "Changed the price of 2 rows",
+            "C": "Changed the price of 3 rows",
+            "D": "Changed the price of 4 $rows"
+        },
+        "question7": "foodsテーブルに対して以下のSQL文を実行したとき、実行後のfoodsテーブルの状況として正しいものを選択してください。",
+        "option7": {
+            "A": "img",
+            "B": "img",
+            "C": "img",
+            "D": "img"
+        },
+        "question8": "fruitsテーブルに対して以下のSQL文を実行したときの出力結果として正しいものを選択してください。",
+        "option8": {
+            "A": "img",
+            "B": "img",
+            "C": "img",
+            "D": "img"
+        },
+        "question9": "次のコードを実行したときの出力結果として正しいものを選択してください。",
+        "option9": {
+            "A": "lemon 180 50",
+            "B": "kiwi 120 80 lemon 180 50 plum 240 40 melon 360 30",
+            "C": "melon 360 30 plum 240 40 lemon 180 50",
+            "D": "lemon 180 50 plum 240 40 melon 360 30 "
+        },
+        "question10": "次のコードを実行したときに以下の結果が得られるようにしたい場合、空欄①に当てはまる記述として正しいものを選択してください。",
+        "option10": {
+            "A": "getAll",
+            "B": "get",
+            "C": "fetchAll",
+            "D": "fetch"
+        },
+        "question11": "次のコードでは、PDOのプリペアードステートメントを使用して、外部からのデータを用いた検索を行っています。空欄①、②に当てはまる記述の組み合わせとして正しいものを選択してください。",
+        "option11": {
+            "A": "①bind ②exec",
+            "B": "①bind ②execute",
+            "C": "①query ②exec",
+            "D": "①query ②execute",
+            "E": "①prepare ②exec",
+            "F": "①prepare ②execute"
+        }
+    },
+    "chapter9": {
+        "count": 1,
+        "title": "「ファイルの操作」 全９問",
+        "quizCount": 9,
+        "question1": "ファイルの内容すべてを読み込む関数として正しいものを選択してください。",
+        "option1": {
+            "A": "fgets()",
+            "B": "file_get_all()",
+            "C": "file_get_contents()",
+            "D": "is_readable()"
+        },
+        "question2": "PHPのファイル操作の説明として誤っているものを選択してください。",
+        "option2": {
+            "A": "file_get_contents()関数は、ローカルファイルでもリモートファイルでも取得することができる",
+            "B": "file_get_contents()関数は、ローカルファイルに書き出すことができるが、リモートファイルに出力することはできない",
+            "C": "ファイルにアクセスする関数を利用する場合は、常にパーミッションの問題やファイルの読み込み失敗などのエラー原因に対するチェックが必要である",
+            "D": "file_get_contents()関数では、ほかのWebサイトから画面情報を切り出して利用するスクリーンスクレイピングを行うことができる"
+        },
+        "question3": "fopen()関数を用いて元のファイル内容をクリアして書き込みたい場合に指定するファイルモードとして適切なものを選択してください。",
+        "option3": {
+            "A": "ab",
+            "B": "rb",
+            "C": "wb",
+            "D": "xb"
+        },
+        "question4": "次のコードで一度に1行ずつファイルの内容を内容を読み込みたい場合、空欄①～③に当てはまる記述の組み合わせとして最も適切なものを選択してください。",
+        "option4": {
+            "A": "①fopen ②fgets ③fclose ",
+            "B": "①fopen ②fgets ③feof",
+            "C": "①fgets ②fread ③fclose",
+            "D": "①fgets ②fopen ③feof"
+        },
+        "question5": "カンマで区切られたCSVファイルの行を読み込む関数として正しいものを選択してください。",
+        "option5": {
+            "A": "fgetc()",
+            "B": "fgetcsv()",
+            "C": "file_get_csv",
+            "D": "csvread()"
+        },
+        "question6": "WebクライアントにHTMLドキュメントでなくCSVドキュメントを送ることを通知する関数として正しいものを選択してください。",
+        "option6": {
+            "A": "fgetcsv()",
+            "B": "header()",
+            "C": "simple_csv_read()",
+            "D": "csv_call()"
+        },
+        "question7": "ファイルが読み込み可能かどうかを判定する関数として正しいものを選択してください。",
+        "option7": {
+            "A": "file_exists()",
+            "B": "is_file()",
+            "C": "is_readable()",
+            "D": "is_dir()",
+            "E": "file_get_contents()"
+        },
+        "question8": "ファイルの読み込み時エラーが発生したかどうかを判定した場合、空欄①に当てはまる記述として最も適切なものを選択してください。",
+        "option8": {
+            "A": "$file",
+            "B": "!$file",
+            "C": "$file == false",
+            "D": "$file === false"
+        },
+        "question9": "ファイルの扱いに関する説明として誤っているものを選択してください。",
+        "option9": {
+            "A": "ファイルのアップロードを行った場合、アップロードされたファイルに関する情報は$_FILES配列に格納される",
+            "B": "ファームデータにNullバイトが含まれる場合や、バイナリセーフでない関数を利用する場合は、適切な処理が必要である",
+            "C": "ファイルへのアクセスはWebサーバーで制御されているため、公開されていないファイルに外部からアクセスすることはできない",
+            "D": "ファイルの作成からパーミッションの設定までの間に外部からファイルにアクセスされるおそれがあるため、ファイル作成時に適切なパーミッションを行うべきである"
+        }
+    },
+    "chapter10": {
+        "count": 1,
+        "title": "「ユーザの記憶：クッキーとセッション」 全８問",
+        "quizCount": 8,
+        "question1": "クッキーの説明として最も適切なものを選択してください。",
+        "option1": {
+            "A": "クッキーの値は、Webブラウザで保持している",
+            "B": "クッキーは、Webショッピングのカート情報を保持するための仕組みとして利用するのが適している",
+            "C": "クッキーの情報はWebブラウザで生成され、Webサーバーに送信される",
+            "D": "クッキーの値は、クライアント側で削除できない"
+        },
+        "question2": "クッキーuseridの有効期限を1時間に設定する以下のコードの空欄①に当てはまる記述として正しいものを選択してください。",
+        "option2": {
+            "A": "set",
+            "B": "settime",
+            "C": "setcookie",
+            "D": "setcookietime"
+        },
+        "question3": "sercookie()関数の利用方法として誤っているものを選択してください。",
+        "option3": {
+            "A": "setcookie('name','taro',0,'/sample');",
+            "B": "setcookie('userid',array('num'=>500));",
+            "C": "setcookie('name','taro',0,'/','.example.com');",
+            "D": "setcookie('userid','');"
+        },
+        "question4": "セキュアなHTTPS接続の場合のみクッキーを送信させる設定として正しいものを選択してください。",
+        "option4": {
+            "A": "setcookie('cookie_name','cookie_value',0,null,null,true,false);",
+            "B": "setcookie('cookie_name','cookie_value',0,null,null,false,true);",
+            "C": "setcookie('cookie_name','cookie_value',null,null,true,true);",
+            "D": "setcookie('cookie_name','cookie_value',0,null,null);"
+        },
+        "question5": "セッションで利用されるクッキーの名前として正しいものを選択してください。",
+        "option5": {
+            "A": "COOKIE",
+            "B": "SESSION",
+            "C": "SESSIONID",
+            "D": "PHPSESSID"
+        },
+        "question6": "現在のセッションに関連付けられたすべてのデータを破棄するための記述として正しいものを選択してください。",
+        "option6": {
+            "A": "session_reset();",
+            "B": "session_destroy();",
+            "C": "session_unset();",
+            "D": "unset();"
+        },
+        "question7": "OnにするとJavaScriptでクッキーにアクセスできなくなる設定として正しいものを選択してください。",
+        "option7": {
+            "A": "session.cookie_secure",
+            "B": "session.cookie_noscript",
+            "C": "session.cookie_httponly",
+            "D": "session.cookie_noaccess"
+        },
+        "question8": "Webページのヘッダに必要な情報を追加するためにページの先頭に記述する必要がある関数として正しいものを選択してください。",
+        "option8": {
+            "A": "cookie()関数",
+            "B": "startcookie()関数",
+            "C": "setcookie()関数",
+            "D": "session()関数",
+            "E": "session_end()関数",
+            "F": "session_destroy()関数"
+        }
+    },
+    "chapter11": {
+        "count": 1,
+        "title": "「他のWebサイトやサービスとのやり取り」 全５問",
+        "quizCount": 5,
+        "question1": "faile_get_contents()関数の機能の説明として誤っているものを選択してください。",
+        "option1": {
+            "A": "ストリームコンテキストを使用したHTTPヘッドを送信する",
+            "B": "リモートファイルの書き込みをする",
+            "C": "Webサイトの情報の読み込みをする",
+            "D": "ローカルファイルの読み込みをする"
+        },
+        "question2": "cURLを利用したURLアクセスをする際に、最初に実行すべき処理として正しいものを選択してください。",
+        "option2": {
+            "A": "curl_start()関数",
+            "B": "curl_exec()関数",
+            "C": "curl_init()関数",
+            "D": "http_build_query()関数"
+        },
+        "question3": "curl_getinfo()関数の説明として正しいものを選択してください。",
+        "option3": {
+            "A": "引数にリクエストを送信するURLを指定する",
+            "B": "cURLを使用した接続では、curl_error()関数があるため、curl_getinfo()関数をエラー処理として利用する必要はない",
+            "C": "返すリクエストに関する情報を指定することはできない",
+            "D": "リクエストに関する情報を配列として返す"
+        },
+        "question4": "cURLを利用したURLアクセスをする際に、利用可能な機能として誤っているものを選択してください。",
+        "option4": {
+            "A": "curl_setopt()関数のCURLOPT_POST設定およびCURLOPT_POSTFILELDS設定によって、POST軽油でリクエストを送信する",
+            "B": "json_encode()関数を利用して、リクエストをjsonで送信する",
+            "C": "curl_setopt()関数のCURLOPT_COOKIEDATA設定によって、クッキーを追加する",
+            "D": "HTTPSプロトコルを使用するURLを取得する"
+        },
+        "question5": "JSON形式で情報提供を行っているAPIに合わせ、適したデータ提供を行います。APIの形式に合わせたHTTPヘッダを送信する際に利用する関数として適切なものを選択してください。",
+        "option5": {
+            "A": "header()関数",
+            "B": "json_header()関数",
+            "C": "http_header()関数",
+            "D": "api_header()関数"
+        }
+    },
+    "chapter12": {
+        "count": 1,
+        "title": "「デバッグとテストと開発の心得」 全１４問",
+        "quizCount": 14,
+        "question1": "デバッグの説明として正しいものを選択してください。",
+        "option1": {
+            "A": "本来は必要ないものであり、プログラム初心者のみ行う",
+            "B": "PHP独特の作業で、ほかのプログラミング言語では行わない",
+            "C": "プログラムは最初から正しく動作することはほとんどないため、プログラム中の誤りを見つけて修正すること",
+            "D": "開発後もプログラムを修正しやすいように、デバッグを行うための設定は残しておくべきである"
+        },
+        "question2": "デバッグしやすいようにWebブラウザにエラーメッセージを表示したい場合に設定するとよいパラメータとして正しいものを選択してください。",
+        "option2": {
+            "A": "show_errors",
+            "B": "print_errors",
+            "C": "display_errors",
+            "D": "log_errors"
+        },
+        "question3": "PHPが扱うエラーの種類を制御するパラメータとして正しいものを選択してください。",
+        "option3": {
+            "A": "error_report",
+            "B": "error_reporting",
+            "C": "PHPerror_report",
+            "D": "PHPerror_reporting"
+        },
+        "question4": "PHPエディタとパースエラーの説明として正しいものを選択してください。",
+        "option4": {
+            "A": "一般的なPHP対応のエディタにはシンタックスハイライトの機能がある",
+            "B": "一般的なPHP対応のエディタには例外処理を自動で対応する機能がある",
+            "C": "一般的なPHP対応のエディタには引用符と括弧の対応付けをする機能はない",
+            "D": "一般的なPHP非対応のエディタには行番号を表示する機能がある",
+            "E": "エラーメッセージに示された行数とエラーのある行番号は常に一致する",
+            "F": "エラーメッセージに示された行数とエラーのある行番号は常に異なる"
+        },
+        "question5": "デバッグする際に配列の内容をすべて表示するために利用する関数として正しいものを選択してください。",
+        "option5": {
+            "A": "var_dump()",
+            "B": "error_log()",
+            "C": "array_search()",
+            "D": "debug()"
+        },
+        "question6": "デバッグと未捕捉例外処理の説明として誤っているものを選択してください。",
+        "option6": {
+            "A": "phpdbgデバッガはPHP付属のデバッガである",
+            "B": "break.phpをデバッグするためにphpdbgでセッションを開始する場合、次のコードを実行する php.dbg -e break.php",
+            "C": "例外処理をしていない未捕捉例外処理を通知する手段として例外ハンドラが用意されている",
+            "D": "ユーザー定義の例外ハンドラを設定するにはerror_handler()関数を用いる"
+        },
+        "question7": "PHPUnitの説明として誤っているものを選択してください。",
+        "option7": {
+            "A": "PHPUnitを実行するためPHARファイルを実行可能にするには、OSのコマンドライン上で次コマンドを実行する chmod a+e phpunit.phar",
+            "B": "PHPコマンドラインプログラムとしてPHPUnitのバージョンを確認するには、OSのコマンドライン上で次のコマンドを実行する php ./phpunit.phar --version",
+            "C": "PHPUnitはComposerを利用してインストールすることができる",
+            "D": "PHPUnitを利用する手段のひとつに、PHARアーカイブ形式をダウンロードして実行可能形式にする方法がある"
+        },
+        "question8": "Purchase.phpをテストするためにPurchaseTest.phpを作成しました。PHPUnitプログラムによるテスト行ったときに下の実行結果が得られるようにしたい場合、空欄①に当てはまる記述として正しいものを選択してください。",
+        "option8": {
+            "A": "composer",
+            "B": "equals",
+            "C": "testMethod",
+            "D": "assert",
+            "E": "assertEquals"
+        },
+        "question9": "テストに関する説明として正しいものを選択してください。",
+        "option9": {
+            "A": "生産性を高めるには、テスト対象をなるべく分離しないようにする",
+            "B": "テスト実行時に、テストの実行順番に重要な意味があるため、実行順によってテスト結果が変わるようにしたほうが良い",
+            "C": "テスト駆動開発では、実装すべき新機能があるときに、コードを書く前にその機能のテストを記述することを目的とする",
+            "D": "プロジェクトが大きくなると包括的なテストのメリットは小さくなる"
+        },
+        "question10": "PHPエンジンのコードも管理している代表的なバージョン管理システムとして正しいものを選択してください。",
+        "option10": {
+            "A": "Git",
+            "B": "Zendversion",
+            "C": "overflow",
+            "D": "Composer"
+        },
+        "question11": "PHPの開発環境の説明として誤っているものを選択してください。",
+        "option11": {
+            "A": "開発環境と本番環境は分離すべきである",
+            "B": "一般的に本番環境はクラウド環境やデータセンターのサーバー上で構築し、開発環境は自分のコンピューター上で構築する傾向がある",
+            "C": "php_ini_file()関数を用いることで、設定ファイルの内容を一度読み込むことができる",
+            "D": "環境固有の構成情報とコードは分離すべきである"
+        },
+        "question12": "PHPのスケーリングやパフォーマンスの説明として誤っているものを選択してください。",
+        "option12": {
+            "A": "PHPは大規模ばWebサイトでの利用に対応している",
+            "B": "PHPは小規模なWebサイトの作成に適している",
+            "C": "PHPの動作を高速化するためのひとつの手段としてプロファイラの活用が挙げられる",
+            "D": "Webシステムの動作が遅い場合、PHPの動作速度のみが要因であると考えられる"
+        },
+        "question13": "セキュリティ対策として正しいものを選択してください。",
+        "option13": {
+            "A": "入力のフィルタリングのみを行う",
+            "B": "出力のエスケープのみを行う",
+            "C": "SQLインジェクション攻撃の対策としてPDOのプリペアードステートメントとプレースホルダを利用する",
+            "D": "Webアプリケーションのセキュリティは、ファイアウォールでのみ設定する"
+        },
+        "question14": "クロスサイトスクリプティングの対策に有効な関数を選択してください。",
+        "option14": {
+            "A": "password_hash()",
+            "B": "htmlentities()",
+            "C": "strip_target()",
+            "D": "file_exists()"
+        }
+    },
+    "chapter13": {
+        "count": 1,
+        "title": "「一般的な処理や話題」 全２０問",
+        "quizCount": 20,
+        "question1": "タイムゾーンに関する説明として誤っているものを選択してください。",
+        "option1": {
+            "A": "タイムゾーンを設定する際には、PHPの構成ファイルのdate.timezone構成パラメータを設定する",
+            "B": "スクリプト内でdate_default_timezone_set()関数によってタイムゾーンを設定する",
+            "C": "タイムゾーンの設定をしない場合のデフォルト値はJSTに設定されている",
+            "D": "PHPでは、サポートされているタイムゾーンのみ設定することができる"
+        },
+        "question2": "2019年2月1日金曜日を「02/01/19」と表示した場合、以下の記述の空欄①に当てはまるものを選択してください。",
+        "option2": {
+            "A": "n/y/Y",
+            "B": "m/d/y",
+            "C": "g:i:s",
+            "D": "M:D:Y"
+        },
+        "question3": "時刻に関するDateTimeオブジェクトのメソッドについて、メソッド名と説明の組み合わせとして誤っているものを選択してください。",
+        "option3": {
+            "A": "formaat()メソッド:指定した書式でフォーマットした日付と時刻を返す",
+            "B": "modify()メソッド:DateTimeオブジェクト内の日付や時刻を変更する",
+            "C": "diff()メソッド:2つのDateTimeオブジェクトの差を返す",
+            "D": "setDate()メソッド:DateTimeオブジェクトの現在時刻を別の時刻に設定する"
+        },
+        "question4": "Composerの説明として正しいものを選択してください。",
+        "option4": {
+            "A": "Composerは既存のライブラリを探し、プログラムに統合することができる",
+            "B": "Composerを利用するには専門の有料ライセンスが必要である",
+            "C": "Composerでは、使用中のパッケージの新バージョンに対して容易にアップグレードが行えない",
+            "D": "ComposerはWindowsでは使用できない"
+        },
+        "question5": "Composerでインストールしたパッケージを利用するための記述として正しいものを選択してください。",
+        "option5": {
+            "A": "use 'vendor/autoload.php'",
+            "B": "add 'vendor/autoload/php'",
+            "C": "compose 'vendor/autoload.php'",
+            "D": "require 'vendor/autoload/php'"
+        },
+        "question6": "Composerパッケージリポジトリとして正しいものを選択してください。",
+        "option6": {
+            "A": "WebRepo",
+            "B": "PHPPackager",
+            "C": "Packagist",
+            "D": "ComposerRepo"
+        },
+        "question7": "Swift Mailerを使用してメールの送信をします。メールメッセージの作成についての説明として正しいものを選択してください。",
+        "option7": {
+            "A": "Swift Mailerでは、メッセージをSwift Mailerオブジェクトとして作成する",
+            "B": "メッセージの件数を設定する際には、Subject()メソッドの引数に設定する",
+            "C": "メッセージの本文を設定する際には、setBody()メソッドの引数に設定する",
+            "D": "HTML形式でメッセージを送信したい場合には、addHTML()メソッドの引数に、メッセージとタイプを指定する"
+        },
+        "question8": "Swift Mailerを使用してメールの送信をします。",
+        "option8": {
+            "A": "①Swift_SmtpTransport ②Swift_Mailer",
+            "B": "①Swift_SmtpTransport ②Swift_Sender",
+            "C": "①Swift_Sport ②Swift_Sender",
+            "D": "①Swift_Sport ②Swift_Mailer"
+        },
+        "question9": "Swift Mailerを使用してメールの送信をします。メールを送信するために利用するSwift_Mailerオブジェクトのメソッドとして正しいものを選択してください。",
+        "option9": {
+            "A": "setFrom()メソッド",
+            "B": "setTo()メソッド",
+            "C": "attach()メソッド",
+            "D": "send()メソッド"
+        },
+        "question10": "一般的に、Web開発を目的としたフレームワークで提供される機能として誤っているものを選択してください。",
+        "option10": {
+            "A": "ルーティング",
+            "B": "オブジェクト関係マッピング",
+            "C": "脆弱性のないプログラムの作成",
+            "D": "ユーザ管理"
+        },
+        "question11": "PHPのLaravelフレームワークの説明として正しいものを選択してください。",
+        "option11": {
+            "A": "オープンソースのフレームワークである",
+            "B": "Composerをパッケージの管理に使用している",
+            "C": "ルーティングをサポートする",
+            "D": "LaraHandlerテンプレートエンジンをサポートする"
+        },
+        "question12": "PHPのSymfonyフレームワークの特徴として正しいものを選択してください。",
+        "option12": {
+            "A": "使用には有料ライセンスが必要である",
+            "B": "ルーティングの設定ファイルではXML、PHP、Annotationsのみが利用できる",
+            "C": "Linux専用のフレームワークである",
+            "D": "Twigテンプレートエンジンをサポートする"
+        },
+        "question13": "PHPのZend Frameworkのフレームワークの特徴として正しいものを選択してください。",
+        "option13": {
+            "A": "使用には有料ライセンスが必要である",
+            "B": "Windows専用のフレームワークである",
+            "C": "標準のルータはZend_Controller_Router_Rewriteである",
+            "D": "デフォルトのテンプレートエンジンはVelocityである"
+        },
+        "question14": "PHPエンジンの組み合わせWebサーバーを使用します。ホスト名がwww.example.comのマシンのポート8000番でWebサーバーを稼働させる際のコマンドラインとして正しいものを選択してください。",
+        "option14": {
+            "A": "php www.example.com 8000",
+            "B": "php -m www.example.com -p 8000",
+            "C": "php -h www.example.com,8000",
+            "D": "php -S www.example.com:8000"
+        },
+        "question15": "PHPエンジンの組み込みWebサーバーを使用します。Webサーバーで参照するスクリプトファイルが「/home/taro/html」以下にあります。Webサーバ開始時にドキュメントルートを「/home/taro/html」に設定するための方法として正しいものを選択してください。",
+        "option15": {
+            "A": "Webサーバ開始時に、phpコマンドの-dオプションを指定し、引数に設定したいドキュメントルートのディレクトリ名を確定する",
+            "B": "Webサーバ開始時に、phpコマンドの-tオプションを指定し、引数に設定したいドキュメントルートのパス名を指定する",
+            "C": "事前にWebサーバの設定ファイルにURLに対するファイルのマッピング設定をしておく",
+            "D": "Webサーバ開始前に、phpコマンドを実行するディレクトリを「/home/taro/html」に変更しておく必要はない",
+            "E": "組み込みWebサーバーでは、ドキュメントルートのディレクトリは固定のため、任意のディレクトリをドキュメントルートに設定することはできない"
+        },
+        "question16": "組み込みのPHP REPLを利用して対話的にPHPコードを実行します。組み込みのPHP REPLを開始するコマンドとしてコマンドとして正しいものを選択してください。",
+        "option16": {
+            "A": "php -a",
+            "B": "php -i",
+            "C": "php -p",
+            "D": "php start repl"
+        },
+        "question17": "PHPでの日本語処理についての説明として正しいものを選択してください。",
+        "option17": {
+            "A": "PHPでは日本語などのマルチバイト文字を扱うことはできない",
+            "B": "mbstring拡張モジュールは、自動翻訳の機能を提供する",
+            "C": "mbstring拡張モジュールは、日本語などのマルチバイト対応の文字処理関数を提供する",
+            "D": "PHPは、標準でShift-JISエンコーディングによるテキスト処理をサポートする"
+        },
+        "question18": "次のコードを実行した結果として正しいものを選択してくだい。",
+        "option18": {
+            "A": "PHPプロ",
+            "B": "Pプロ",
+            "C": "HPプログ",
+            "D": "Pプログラ"
+        },
+        "question19": "次のコードを実行したときに以下の出力結果をえられるようにしたい場合、空欄①に当てはまる記述として正しいものを選択してください。",
+        "option19": {
+            "A": "mb_strlen($message);",
+            "B": "strlen($message);",
+            "C": "strlen($message,UTF-8);",
+            "D": "convert_strlen($message,UTF-8);"
+        },
+        "question20": "異なる文字エンコーディング間で相互変換を行う関数として正しいものを選択してください。",
+        "option20": {
+            "A": "mb_internal_encoding()",
+            "B": "mb_convert_kana()",
+            "C": "mb_convert_internal()",
+            "D": "mb_convert_encoding()"
+        }
+    }
+}
